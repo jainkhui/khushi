@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333; 
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+
+.navbar {
+    background-color: #333; 
+    color: white;
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.hero {
+    background: burlywood; 
+    color: white;
+    text-align: center;
+    padding: 80px 5%;
+    position: relative;
+    overflow: hidden; 
+}
+
+.hero-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero-section h2 {
+    
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.hero-section p {
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-style: italic;
+    margin-bottom: 15px !important;
+}
+
+.time {
+    font-weight: 500;
+}
+
+
+.hero-logo-left, .hero-logo-right {
+    position: absolute;
+    top: 50px; 
+    width: 60px; 
+    height: auto;
+}
+
+.hero-logo-left {
+    left: 5%;
+}
+
+.hero-logo-right {
+    right: 5%;
+    top: 30px; 
+}
+
+
+.about-section, .agenda-section {
+   
+    text-align: center;
+    padding: 60px 0;
+    border-bottom: 1px;
+}
+
+
+.about-section p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+
+.agenda-section ol {
+    list-style-type: none; 
+    padding-left: 0;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    counter-reset: agenda-item;
+}
+
+.agenda-section li {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin: 10px 0;
+    counter-increment: agenda-item;
+}
+
+
+.speakers-section {
+    background-color: #986410; 
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.speakers-section h3 {
+    font-size: 1.8em;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.speakers-list {
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+    flex-wrap: wrap;
+}
+
+.speaker-card {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    max-width: 300px;
+}
+
+.speaker-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+    border: 2px solid white; 
+}
+
+.speaker-info strong {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 2px;
+}
+
+.speaker-info p {
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+
+footer {
+    background-color: #333;
+    color: #aaa;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.8em;
+}
